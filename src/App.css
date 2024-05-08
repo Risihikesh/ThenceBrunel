@@ -40,3 +40,12 @@
 .read-the-docs {
   color: #888;
 } */
+
+
+:root {
+  font-family: "Manrope", sans-serif;
+  color: #1c1c1c;
+  font-size: 18px;
+  overflow-x: hidden;
+  --color-bg: #fdedfb;
+}

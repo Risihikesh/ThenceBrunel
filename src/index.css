@@ -2,6 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: "Switzer-Medium";
+  src: local("Switzer-Medium"),
+    url("./fonts/Switzer-Medium.otf") format("opentype");
+}
+
+
 /* :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
