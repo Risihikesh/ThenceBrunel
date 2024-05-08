@@ -4,6 +4,10 @@ export default {
   "./src/**/*.{js,ts,jsx,tsx}",],
   theme: {
     extend: {},
+    fontFamily: {
+      "fontco":["Covered By Your Grace"],
+      "manrope":["Manrope"],
+    },
   },
   plugins: [],
 }
