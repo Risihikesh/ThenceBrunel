@@ -42,6 +42,27 @@
 } */
 
 
+
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+/* hidding scrollbar */
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+html {
+  scrollbar-width: none; /* For Firefox */
+  -ms-overflow-style: none; /* For Internet Explorer and Edge */
+}
+
+::selection {
+  color: #c6e5cd;
+}
+
 :root {
   font-family: "Manrope", sans-serif;
   color: #1c1c1c;
